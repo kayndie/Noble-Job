@@ -1,0 +1,80 @@
+*{
+    font-family: times New Roman;
+ }
+ body {
+   margin: 0;
+   padding: 0;
+   background-image: url('Health.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: center;
+}
+h1, h2, h3, p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   color: Black;
+}
+
+table, th, td {
+   border: 1px solid #ccc;
+   border-collapse: collapse;
+   padding: 10px;
+}
+
+.product{
+   display:none; 
+   margin-top:20px;
+}
+ .header{
+    border-bottom: 5px solid black;
+    width: 100%;
+    height: auto;
+ }
+ .content{
+    margin-left: 5px;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ 
+ .container {
+   border: 5px solid black;
+   padding: 20px;
+   margin: 20px;
+}
+.delete, .ebtn {
+   text-align: center;
+}
+
+.dltbtn, .ebtn {
+   color: black;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+ .ListOfSurgeons{
+    display: grid;
+    height: auto;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+ }
+
+ 
+ textarea {
+   background-color: black;
+   border: 1px solid #333;
+}
+ 
+ form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+ }
+ 
+.Search {
+   display: flexbox;
+   height: auto;
+}
